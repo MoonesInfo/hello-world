@@ -1,1 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T22:48:31.328Z" agent="5.0 (Windows)" version="20.7.3" etag="0vb-iEdWmxCzkrls513L" type="github"><diagram id="ZSHar1BHvaiEFlHG-RwD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-17T16:49:28.119Z" agent="5.0 (Windows)" version="20.7.3" etag="rM9mwZcvg3GSRujrcECG" type="github">
+  <diagram id="lixtpbhgssOBW7LOqAbz" name="Page-1">
+    <mxGraphModel dx="2074" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hPZ5j5HDaCzO589Nq4dV-5" value="GitHub Repo" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="260" height="170" as="geometry" />
+        </mxCell>
+        <UserObject label="GitHub CICD workflow" treeRoot="1" id="hPZ5j5HDaCzO589Nq4dV-8">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="hPZ5j5HDaCzO589Nq4dV-5">
+            <mxGeometry x="20" y="70" width="140" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="hPZ5j5HDaCzO589Nq4dV-12" value="AWS" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+          <mxGeometry x="450" y="70" width="360" height="300" as="geometry" />
+        </mxCell>
+        <UserObject label="AWS IAM" treeRoot="1" id="hPZ5j5HDaCzO589Nq4dV-15">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="hPZ5j5HDaCzO589Nq4dV-12">
+            <mxGeometry x="20" y="30" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="AWS S3" treeRoot="1" id="hPZ5j5HDaCzO589Nq4dV-18">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="hPZ5j5HDaCzO589Nq4dV-12">
+            <mxGeometry x="30" y="210" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="AWS CodeDeploy" treeRoot="1" id="hPZ5j5HDaCzO589Nq4dV-19">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="hPZ5j5HDaCzO589Nq4dV-12">
+            <mxGeometry x="210" y="130" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="hPZ5j5HDaCzO589Nq4dV-20" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="300" as="sourcePoint" />
+            <mxPoint x="770" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hPZ5j5HDaCzO589Nq4dV-21" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hPZ5j5HDaCzO589Nq4dV-8" target="hPZ5j5HDaCzO589Nq4dV-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="160" as="sourcePoint" />
+            <mxPoint x="390" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
